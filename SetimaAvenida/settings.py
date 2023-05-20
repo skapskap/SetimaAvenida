@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'SetimaAvenida.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'setimaavenidadb',
+        'NAME': 'setimaavenida',
         'USER': 'postgres',
-        'PASSWORD': 'aptx4869',
+        'PASSWORD': 'Aptx@4869',
         'HOST': 'localhost',
     }
 }
@@ -138,3 +138,11 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Messages
+
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
