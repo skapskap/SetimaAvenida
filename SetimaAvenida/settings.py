@@ -82,10 +82,11 @@ WSGI_APPLICATION = 'SetimaAvenida.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'setimaavenida',
-        'USER': 'postgres',
-        'PASSWORD': 'Aptx@4869',
+        'NAME': '7avenida',
+        'USER': 'skapskap',
+        'PASSWORD': 'funyarinpa999',
         'HOST': 'localhost',
+        'PORT': '5433',
     }
 }
 
